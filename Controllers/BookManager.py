@@ -1,0 +1,87 @@
+from App.Books import Books
+
+class BookManager():
+	def __init__(self, DAO):
+		self.misc = Books(DAO.db.book)
+		self.dao = self.misc.dao
+
+	def list(self, availability=1,user_id=None):
+		if user_id!= None:
+			book_list = self.dao.listByUser(user_id)
+		else:
+			book_list = self.dao.list(availability)
+
+		return book_list
+
+	def getReserverdBooksByUser(self, user_id):
+		books = self.dao.getReserverdBooksByUser(user_id)
+
+		return books
+
+	def getBook(self, id):
+		books = self.dao.getBook(id)
+
+		return books
+
+	def search(self, keyword, availability=1):
+		books = self.dao.search_book(keyword, availability)
+
+		return books
+
+	def reserve(self, user_id, book_id):
+		books = self.dao.reserve(user_id, book_id)
+
+		return books
+
+	def getUserBooks(self, user_id):
+		books = self.dao.getBooksByUser(user_id)
+
+		return books
+
+	def getUserBooksCount(self, user_id):
+		books = self.dao.getBooksCountByUser(user_id)
+
+		return books
+
+	def delete(self, id):
+		books = self.dao.delete(id)
+
+		return books
+
+	def add(self, title, quantity, available, description, edition):
+		# user = self.dao.getByEmail(email)
+
+		# if user is not None:
+		# 	return "already_exists"
+
+		book_info = {
+			"title": title,
+			"desc": description,
+			"availability": available,
+			"count": quantity,
+			"edition": edition
+			}
+
+		new_book = self.dao.add(book_info)
+
+		return new_book
+
+	def edit(self, title, quantity, available, description, edition, id):
+		# user = self.dao.getByEmail(email)
+
+		# if user is not None:
+		# 	return "already_exists"
+
+		book_info = {
+			"book_id": id,
+			"title": title,
+			"desc": description,
+			"availability": available,
+			"count": quantity,
+			"edition": edition
+			}
+
+		new_book = self.dao.edit(book_info)
+
+		return new_book
+
