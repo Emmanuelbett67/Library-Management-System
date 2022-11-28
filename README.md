@@ -1,5 +1,5 @@
 # Library Management System
-A simple flask app to manage users along with mysql service
+A simple flask app to manage users and books along with mysql service
 
 ![Libray Management App - Flask](https://github.com/Emmanuelbett67/Library-Management-System/blob/main/ss/ss2.jpg?raw=true)
 
