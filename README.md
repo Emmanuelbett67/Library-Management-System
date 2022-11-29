@@ -15,7 +15,7 @@ A simple flask app to manage users and books along with mysql service
 ## Core Features
 
 ![admin](https://img.shields.io/badge/admin-login-teal.svg?style=flat-square) 
-![search](https://img.shields.io/badge/seacrh-books-yellowgreen.svg?style=flat-square)
+![search](https://img.shields.io/badge/search-books-yellowgreen.svg?style=flat-square)
 ![Reserve](https://img.shields.io/badge/reserve-books-ff69b4.svg?style=flat-square)
 ![member](https://img.shields.io/badge/add-member-dodgerblue.svg?style=flat-square) 
 ![add](https://img.shields.io/badge/add-books-orange.svg?style=flat-square) 
