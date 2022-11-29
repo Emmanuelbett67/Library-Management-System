@@ -4,8 +4,64 @@ A simple flask app to manage users and books along with mysql service
 ![GitHub repo size](https://img.shields.io/github/repo-size/Emmanuelbett67/Library-Management-System.svg?logo=github&style=social)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Emmanuelbett67/Library-Management-System.svg?logo=git&style=social)
 
+## Abstract
+
+![Library Management System](https://img.shields.io/badge/library--management-system-orange.svg?style=flat-square) 
+![DBMS Project](https://img.shields.io/badge/DBMS-project-yellowgreen.svg?style=flat-square)
+![Open Source Programming](https://img.shields.io/badge/open--source-programming-ff69b4.svg?style=flat-square)
+
 ![Libray Management App - Flask](https://github.com/Emmanuelbett67/Library-Management-System/blob/main/ss/ss2.jpg?raw=true)
 
+## Core Features
+
+![admin](https://img.shields.io/badge/admin-login-teal.svg?style=flat-square) 
+![search](https://img.shields.io/badge/seacrh-books-yellowgreen.svg?style=flat-square)
+![issue](https://img.shields.io/badge/issue-books-ff69b4.svg?style=flat-square)
+![member](https://img.shields.io/badge/add-member-dodgerblue.svg?style=flat-square) 
+![add](https://img.shields.io/badge/add-books-orange.svg?style=flat-square) 
+- **Searching** of books
+- **Reserving** books
+- Admin can read information about any member
+- Admin can **add/remove any member**.
+- Admin can **add/delete books**
+- Admin can update the availability status of the books
+
+## Additional Features
+
+**Admin Panel** deal with the following : 
+
+- Displaying all members records.
+
+- Displaying all books records.
+
+- Update Book Records.
+
+- Delete Book Records
+
+- Add Book Records
+
+- Delete Member/Student Records
+
+## Modules
+
+- Admin login
+- User login and signup
+- Search Books
+- Add and Update Books
+- Add and Remove Members
+- Reserve Books
+
+## Technology Stack Used
+
+![HTML](https://img.shields.io/badge/frontend-html-orange.svg?logo=html5&style=flat-square) 
+![CSS](https://img.shields.io/badge/frontend-css-yellowgreen.svg?logo=css3&style=flat-square)
+![Python](https://img.shields.io/badge/frontend-js-ff69b4.svg?logo=javascript&style=flat-square)
+![Flask Framework](https://img.shields.io/badge/backend-php-blue.svg?logo=php&style=flat-square) 
+![MYSQL](https://img.shields.io/badge/database-mysql-lightgray.svg?logo=mysql&logoColor=white&style=flat-square) 
+
+- Front End - **HTML**, **CSS**, **Python**
+- Back End - **Flask Framework**
+- Database - **MySql**
 
 ## Installation
 
