@@ -65,7 +65,7 @@ A simple flask app to manage users and books along with mysql service
 
 ## Requirements
 
-![Flask](https://img.shields.io/static/v1.svg?label=Source%20Code&message=flask&logo=php&style=social)
+![Flask](https://img.shields.io/static/v1.svg?label=Source%20Code&message=flask&logo=flask&style=social)
 
 You'll require **WAMP/XAMPP/MAMP** to run this project.
 
