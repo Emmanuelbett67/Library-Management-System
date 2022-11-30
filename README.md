@@ -40,7 +40,7 @@ A simple flask app to manage users and books along with mysql service
 
 - Add Book Records
 
-- Delete Member/Student Records
+- Delete Member Records
 
 ## Modules
 
