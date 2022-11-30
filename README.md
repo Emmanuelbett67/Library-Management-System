@@ -47,8 +47,8 @@ A simple flask app to manage users and books along with mysql service
 - Admin login
 - User login and signup
 - Search Books
-- Add and Update Books
-- Add and Remove Members
+- Manage Books
+- Manage Members
 - Reserve Books
 
 ## Technology Stack Used
